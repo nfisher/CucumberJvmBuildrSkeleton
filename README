@@ -1,0 +1,14 @@
+Basic skeleton for cucumber-jvm including CLI runner.
+
+Requirements;
+
+* Ruby, JRuby, etc
+* Apache Buildr and it's dependencies
+
+Quickstart;
+
+buildr -T			# list all tasks
+buildr				# run default task (compile and test)
+buildr test		# compile and run tests
+buildr clean
+buildr run		# runs the cucumber cli with html output into reports
